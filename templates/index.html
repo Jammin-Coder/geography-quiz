@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+{% for name, image_url in images.items() %}
+    <p>{{ name }}</p>
+    <img src='{{ image_url }}' >
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ region_name }}
+{% endblock %}
+
+{% block content %}
+
+
+<h1>{{ continent }}</h1>
+
+{{ territory.name }}
+<img src="{{ territory.image_url }}" alt="">
+
+{% endblock %}
+
