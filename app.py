@@ -1,6 +1,5 @@
-from django.shortcuts import render
 from flask import Flask, render_template
-from iso_utils import get_country_name_by_iso, get_iso_name, get_random_territory_from_region
+from utils import get_iso_name, get_random_territory_from_region
 from utils import get_continents
 
 app = Flask(__name__)
@@ -25,5 +24,6 @@ def quiz(continent):
         "name": territory_name,
         "image_url": territory_image_url
     }
+    
     return render_template('quiz.html', territory=territory, continent=continent)
 
