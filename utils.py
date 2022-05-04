@@ -1,7 +1,9 @@
 import json
 import random
 import os
-from settings import COUNTRIES_SCHEMA_URL, ISO_COUNTRIES_URL, MAPS_DIR
+from settings import MAPS_DIR, ISO_COUNTRIES_URL, COUNTRIES_SCHEMA_URL
+from github_read_file import github_read_file
+
 
 def get_continents(path=MAPS_DIR):
     continents = []
@@ -15,6 +17,16 @@ def get_continents(path=MAPS_DIR):
 def read(path):
     with open(path, 'r') as f:
         return f.read()
+
+
+def write(path, contents):
+    with open(path, 'w') as f:
+        f.write(contents)
+
+
+def write_json(path, contents):
+    with open(path, 'w') as f:
+        json.dump(contents, f, indent=4)
 
 
 def read_json(path):
