@@ -1,7 +1,7 @@
 import json
 import random
 import os
-from settings import MAPS_DIR, ISO_COUNTRIES_URL, COUNTRIES_SCHEMA_URL
+from settings import MAPS_DIR, COUNTRIES_SCHEMA_URL
 from github_read_file import github_read_file
 
 
@@ -34,35 +34,19 @@ def read_json(path):
 
 
 def get_iso_countries_dict():
-    return read_json(ISO_COUNTRIES_URL)
+    pass
 
 
 def get_iso_name(name):
-    return get_iso_countries_dict()[name]
+    pass
 
 
 def get_country_name_by_iso(target_iso):
-    for country_name, iso_value in get_iso_countries_dict().items():
-        if iso_value == target_iso:
-            return country_name
-
-
-def check_for_none():
-    regions = get_continents()
-    for region in regions:
-        territory_isos = read_json(COUNTRIES_SCHEMA_URL)[region]
-        for iso in territory_isos:
-            country = get_country_name_by_iso(iso)
-            if country == None:
-                print(f'Region: {region}, Country: {country}, ISO: {iso}')
+    pass
 
 
 def get_random_territory_from_region(region):
-    territories = read_json(COUNTRIES_SCHEMA_URL)[region]
-    territory_iso = territories[random.randrange(0, len(territories))]
-
-    territory = get_country_name_by_iso(territory_iso)
-    return territory
+    pass
 
 
 

@@ -1,6 +1,10 @@
 COUNTRIES_SCHEMA_URL = 'static/json/countries_schema.json'
-ISO_COUNTRIES_URL = 'static/json/iso_countries.json'
 MAPS_DIR = 'static/maps'
 
 GITHUB_USERNAME = 'Jammin-Coder'
 GITHUB_REPO = 'geography-quiz'
+
+DB_HOST = 'localhost'
+DB_USERNAME = 'tim'
+DB_PASSWORD = '$HapPYmiNT56'
+DB_NAME = 'geo_quiz'
