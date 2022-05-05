@@ -1,0 +1,200 @@
+{
+    "countries": [
+        {
+            "country": "svalbard and jan mayen",
+            "iso": "sj"
+        },
+        {
+            "country": "malta",
+            "iso": "mt"
+        },
+        {
+            "country": "macedonia",
+            "iso": "mk"
+        },
+        {
+            "country": "estonia",
+            "iso": "ee"
+        },
+        {
+            "country": "germany",
+            "iso": "de"
+        },
+        {
+            "country": "spain",
+            "iso": "es"
+        },
+        {
+            "country": "latvia",
+            "iso": "lv"
+        },
+        {
+            "country": "united kingdom",
+            "iso": "gb"
+        },
+        {
+            "country": "bosnia and herzegovina",
+            "iso": "ba"
+        },
+        {
+            "country": "lithuania",
+            "iso": "lt"
+        },
+        {
+            "country": "san marino",
+            "iso": "sm"
+        },
+        {
+            "country": "gibraltar",
+            "iso": "gi"
+        },
+        {
+            "country": "aland islands",
+            "iso": "ax"
+        },
+        {
+            "country": "guernsey",
+            "iso": "gg"
+        },
+        {
+            "country": "france",
+            "iso": "fr"
+        },
+        {
+            "country": "holy see (vatican city state)",
+            "iso": "va"
+        },
+        {
+            "country": "belgium",
+            "iso": "be"
+        },
+        {
+            "country": "ukraine",
+            "iso": "ua"
+        },
+        {
+            "country": "austria",
+            "iso": "at"
+        },
+        {
+            "country": "romania",
+            "iso": "ro"
+        },
+        {
+            "country": "switzerland",
+            "iso": "ch"
+        },
+        {
+            "country": "czech republic",
+            "iso": "cz"
+        },
+        {
+            "country": "albania",
+            "iso": "al"
+        },
+        {
+            "country": "faroe islands",
+            "iso": "fo"
+        },
+        {
+            "country": "greece",
+            "iso": "gr"
+        },
+        {
+            "country": "belarus",
+            "iso": "by"
+        },
+        {
+            "country": "isle of man",
+            "iso": "im"
+        },
+        {
+            "country": "finland",
+            "iso": "fi"
+        },
+        {
+            "country": "bulgaria",
+            "iso": "bg"
+        },
+        {
+            "country": "netherlands",
+            "iso": "nl"
+        },
+        {
+            "country": "andorra",
+            "iso": "ad"
+        },
+        {
+            "country": "ireland",
+            "iso": "ie"
+        },
+        {
+            "country": "monaco",
+            "iso": "mc"
+        },
+        {
+            "country": "moldova",
+            "iso": "md"
+        },
+        {
+            "country": "liechtenstein",
+            "iso": "li"
+        },
+        {
+            "country": "hungary",
+            "iso": "hu"
+        },
+        {
+            "country": "norway",
+            "iso": "no"
+        },
+        {
+            "country": "portugal",
+            "iso": "pt"
+        },
+        {
+            "country": "poland",
+            "iso": "pl"
+        },
+        {
+            "country": "montenegro",
+            "iso": "me"
+        },
+        {
+            "country": "denmark",
+            "iso": "dk"
+        },
+        {
+            "country": "italy",
+            "iso": "it"
+        },
+        {
+            "country": "sweden",
+            "iso": "se"
+        },
+        {
+            "country": "slovenia",
+            "iso": "si"
+        },
+        {
+            "country": "serbia",
+            "iso": "rs"
+        },
+        {
+            "country": "luxembourg",
+            "iso": "lu"
+        },
+        {
+            "country": "croatia",
+            "iso": "hr"
+        },
+        {
+            "country": "iceland",
+            "iso": "is"
+        },
+        {
+            "country": "slovakia",
+            "iso": "sk"
+        }
+    ]
+}

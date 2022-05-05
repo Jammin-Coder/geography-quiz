@@ -1,0 +1,236 @@
+{
+    "countries": [
+        {
+            "country": "mayotte",
+            "iso": "yt"
+        },
+        {
+            "country": "mauritania",
+            "iso": "mr"
+        },
+        {
+            "country": "south africa",
+            "iso": "za"
+        },
+        {
+            "country": "saint helena",
+            "iso": "sh"
+        },
+        {
+            "country": "mozambique",
+            "iso": "mz"
+        },
+        {
+            "country": "sao tome and principe",
+            "iso": "st"
+        },
+        {
+            "country": "eritrea",
+            "iso": "er"
+        },
+        {
+            "country": "angola",
+            "iso": "ao"
+        },
+        {
+            "country": "uganda",
+            "iso": "ug"
+        },
+        {
+            "country": "benin",
+            "iso": "bj"
+        },
+        {
+            "country": "congo",
+            "iso": "cg"
+        },
+        {
+            "country": "morocco",
+            "iso": "ma"
+        },
+        {
+            "country": "cape verde",
+            "iso": "cv"
+        },
+        {
+            "country": "namibia",
+            "iso": "na"
+        },
+        {
+            "country": "seychelles",
+            "iso": "sc"
+        },
+        {
+            "country": "western sahara",
+            "iso": "eh"
+        },
+        {
+            "country": "botswana",
+            "iso": "bw"
+        },
+        {
+            "country": "rwanda",
+            "iso": "rw"
+        },
+        {
+            "country": "burkina faso",
+            "iso": "bf"
+        },
+        {
+            "country": "reunion",
+            "iso": "re"
+        },
+        {
+            "country": "mali",
+            "iso": "ml"
+        },
+        {
+            "country": "libyan arab jamahiriya",
+            "iso": "ly"
+        },
+        {
+            "country": "cote ivoire",
+            "iso": "ci"
+        },
+        {
+            "country": "egypt",
+            "iso": "eg"
+        },
+        {
+            "country": "central african republic",
+            "iso": "cf"
+        },
+        {
+            "country": "liberia",
+            "iso": "lr"
+        },
+        {
+            "country": "malawi",
+            "iso": "mw"
+        },
+        {
+            "country": "congo, democratic republic",
+            "iso": "cd"
+        },
+        {
+            "country": "ghana",
+            "iso": "gh"
+        },
+        {
+            "country": "algeria",
+            "iso": "dz"
+        },
+        {
+            "country": "sierra leone",
+            "iso": "sl"
+        },
+        {
+            "country": "niger",
+            "iso": "ne"
+        },
+        {
+            "country": "equatorial guinea",
+            "iso": "gq"
+        },
+        {
+            "country": "zambia",
+            "iso": "zm"
+        },
+        {
+            "country": "nigeria",
+            "iso": "ng"
+        },
+        {
+            "country": "zimbabwe",
+            "iso": "zw"
+        },
+        {
+            "country": "madagascar",
+            "iso": "mg"
+        },
+        {
+            "country": "comoros",
+            "iso": "km"
+        },
+        {
+            "country": "guinea",
+            "iso": "gn"
+        },
+        {
+            "country": "cameroon",
+            "iso": "cm"
+        },
+        {
+            "country": "togo",
+            "iso": "tg"
+        },
+        {
+            "country": "guinea-bissau",
+            "iso": "gw"
+        },
+        {
+            "country": "tanzania",
+            "iso": "tz"
+        },
+        {
+            "country": "gabon",
+            "iso": "ga"
+        },
+        {
+            "country": "united arab emirates",
+            "iso": "ae"
+        },
+        {
+            "country": "swaziland",
+            "iso": "sz"
+        },
+        {
+            "country": "mauritius",
+            "iso": "mu"
+        },
+        {
+            "country": "djibouti",
+            "iso": "dj"
+        },
+        {
+            "country": "somalia",
+            "iso": "so"
+        },
+        {
+            "country": "chad",
+            "iso": "td"
+        },
+        {
+            "country": "gambia",
+            "iso": "gm"
+        },
+        {
+            "country": "tunisia",
+            "iso": "tn"
+        },
+        {
+            "country": "lesotho",
+            "iso": "ls"
+        },
+        {
+            "country": "ethiopia",
+            "iso": "et"
+        },
+        {
+            "country": "senegal",
+            "iso": "sn"
+        },
+        {
+            "country": "sudan",
+            "iso": "sd"
+        },
+        {
+            "country": "burundi",
+            "iso": "bi"
+        },
+        {
+            "country": "kenya",
+            "iso": "ke"
+        }
+    ]
+}

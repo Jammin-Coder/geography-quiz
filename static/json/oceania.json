@@ -1,0 +1,84 @@
+{
+    "countries": [
+        {
+            "country": "wallis and futuna",
+            "iso": "wf"
+        },
+        {
+            "country": "tokelau",
+            "iso": "tk"
+        },
+        {
+            "country": "norfolk island",
+            "iso": "nf"
+        },
+        {
+            "country": "australia",
+            "iso": "au"
+        },
+        {
+            "country": "tonga",
+            "iso": "to"
+        },
+        {
+            "country": "samoa",
+            "iso": "ws"
+        },
+        {
+            "country": "french polynesia",
+            "iso": "pf"
+        },
+        {
+            "country": "guam",
+            "iso": "gu"
+        },
+        {
+            "country": "vanuatu",
+            "iso": "vu"
+        },
+        {
+            "country": "cook islands",
+            "iso": "ck"
+        },
+        {
+            "country": "american samoa",
+            "iso": "as"
+        },
+        {
+            "country": "palau",
+            "iso": "pw"
+        },
+        {
+            "country": "solomon islands",
+            "iso": "sb"
+        },
+        {
+            "country": "nauru",
+            "iso": "nr"
+        },
+        {
+            "country": "new zealand",
+            "iso": "nz"
+        },
+        {
+            "country": "kiribati",
+            "iso": "ki"
+        },
+        {
+            "country": "fiji",
+            "iso": "fj"
+        },
+        {
+            "country": "papua new guinea",
+            "iso": "pg"
+        },
+        {
+            "country": "niue",
+            "iso": "nu"
+        },
+        {
+            "country": "pitcairn",
+            "iso": "pn"
+        }
+    ]
+}

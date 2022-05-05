@@ -1,0 +1,160 @@
+{
+    "countries": [
+        {
+            "country": "turks and caicos islands",
+            "iso": "tc"
+        },
+        {
+            "country": "antigua and barbuda",
+            "iso": "ag"
+        },
+        {
+            "country": "anguilla",
+            "iso": "ai"
+        },
+        {
+            "country": "grenada",
+            "iso": "gd"
+        },
+        {
+            "country": "bonaire, sint eustatius and saba",
+            "iso": "bq"
+        },
+        {
+            "country": "belize",
+            "iso": "bz"
+        },
+        {
+            "country": "saint vincent and grenadines",
+            "iso": "vc"
+        },
+        {
+            "country": "haiti",
+            "iso": "ht"
+        },
+        {
+            "country": "virgin islands, u.s.",
+            "iso": "vi"
+        },
+        {
+            "country": "martinique",
+            "iso": "mq"
+        },
+        {
+            "country": "virgin islands, british",
+            "iso": "vg"
+        },
+        {
+            "country": "honduras",
+            "iso": "hn"
+        },
+        {
+            "country": "sint maarten",
+            "iso": "sx"
+        },
+        {
+            "country": "costa rica",
+            "iso": "cr"
+        },
+        {
+            "country": "dominican republic",
+            "iso": "do"
+        },
+        {
+            "country": "canada",
+            "iso": "ca"
+        },
+        {
+            "country": "dominica",
+            "iso": "dm"
+        },
+        {
+            "country": "puerto rico",
+            "iso": "pr"
+        },
+        {
+            "country": "bermuda",
+            "iso": "bm"
+        },
+        {
+            "country": "jamaica",
+            "iso": "jm"
+        },
+        {
+            "country": "greenland",
+            "iso": "gl"
+        },
+        {
+            "country": "trinidad and tobago",
+            "iso": "tt"
+        },
+        {
+            "country": "panama",
+            "iso": "pa"
+        },
+        {
+            "country": "saint kitts and nevis",
+            "iso": "kn"
+        },
+        {
+            "country": "saint barthelemy",
+            "iso": "bl"
+        },
+        {
+            "country": "saint martin",
+            "iso": "mf"
+        },
+        {
+            "country": "saint lucia",
+            "iso": "lc"
+        },
+        {
+            "country": "bahamas",
+            "iso": "bs"
+        },
+        {
+            "country": "united states",
+            "iso": "us"
+        },
+        {
+            "country": "saint pierre and miquelon",
+            "iso": "pm"
+        },
+        {
+            "country": "el salvador",
+            "iso": "sv"
+        },
+        {
+            "country": "mexico",
+            "iso": "mx"
+        },
+        {
+            "country": "montserrat",
+            "iso": "ms"
+        },
+        {
+            "country": "cayman islands",
+            "iso": "ky"
+        },
+        {
+            "country": "barbados",
+            "iso": "bb"
+        },
+        {
+            "country": "guadeloupe",
+            "iso": "gp"
+        },
+        {
+            "country": "aruba",
+            "iso": "aw"
+        },
+        {
+            "country": "cuba",
+            "iso": "cu"
+        },
+        {
+            "country": "guatemala",
+            "iso": "gt"
+        }
+    ]
+}

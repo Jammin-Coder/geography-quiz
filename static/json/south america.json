@@ -1,0 +1,60 @@
+{
+    "countries": [
+        {
+            "country": "falkland islands (malvinas)",
+            "iso": "fk"
+        },
+        {
+            "country": "argentina",
+            "iso": "ar"
+        },
+        {
+            "country": "nicaragua",
+            "iso": "ni"
+        },
+        {
+            "country": "bolivia",
+            "iso": "bo"
+        },
+        {
+            "country": "uruguay",
+            "iso": "uy"
+        },
+        {
+            "country": "guyana",
+            "iso": "gy"
+        },
+        {
+            "country": "chile",
+            "iso": "cl"
+        },
+        {
+            "country": "ecuador",
+            "iso": "ec"
+        },
+        {
+            "country": "colombia",
+            "iso": "co"
+        },
+        {
+            "country": "french guiana",
+            "iso": "gf"
+        },
+        {
+            "country": "peru",
+            "iso": "pe"
+        },
+        {
+            "country": "venezuela",
+            "iso": "ve"
+        },
+        {
+            "country": "brazil",
+            "iso": "br"
+        },
+        {
+            "country": "paraguay",
+            "iso": "py"
+        }
+    ]
+}

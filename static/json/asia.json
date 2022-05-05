@@ -1,0 +1,240 @@
+{
+    "countries": [
+        {
+            "country": "cocos (keeling) islands",
+            "iso": "cc"
+        },
+        {
+            "country": "malaysia",
+            "iso": "my"
+        },
+        {
+            "country": "lebanon",
+            "iso": "lb"
+        },
+        {
+            "country": "sri lanka",
+            "iso": "lk"
+        },
+        {
+            "country": "bahrain",
+            "iso": "bh"
+        },
+        {
+            "country": "nepal",
+            "iso": "np"
+        },
+        {
+            "country": "brunei darussalam",
+            "iso": "bn"
+        },
+        {
+            "country": "pakistan",
+            "iso": "pk"
+        },
+        {
+            "country": "taiwan",
+            "iso": "tw"
+        },
+        {
+            "country": "tajikistan",
+            "iso": "tj"
+        },
+        {
+            "country": "new caledonia",
+            "iso": "nc"
+        },
+        {
+            "country": "mongolia",
+            "iso": "mn"
+        },
+        {
+            "country": "georgia",
+            "iso": "ge"
+        },
+        {
+            "country": "jordan",
+            "iso": "jo"
+        },
+        {
+            "country": "afghanistan",
+            "iso": "af"
+        },
+        {
+            "country": "viet nam",
+            "iso": "vn"
+        },
+        {
+            "country": "christmas island",
+            "iso": "cx"
+        },
+        {
+            "country": "kazakhstan",
+            "iso": "kz"
+        },
+        {
+            "country": "suriname",
+            "iso": "sr"
+        },
+        {
+            "country": "lao people\"s democratic republic",
+            "iso": "la"
+        },
+        {
+            "country": "british indian ocean territory",
+            "iso": "io"
+        },
+        {
+            "country": "azerbaijan",
+            "iso": "az"
+        },
+        {
+            "country": "armenia",
+            "iso": "am"
+        },
+        {
+            "country": "philippines",
+            "iso": "ph"
+        },
+        {
+            "country": "china",
+            "iso": "cn"
+        },
+        {
+            "country": "bangladesh",
+            "iso": "bd"
+        },
+        {
+            "country": "singapore",
+            "iso": "sg"
+        },
+        {
+            "country": "cyprus",
+            "iso": "cy"
+        },
+        {
+            "country": "india",
+            "iso": "in"
+        },
+        {
+            "country": "heard island & mcdonald islands",
+            "iso": "hm"
+        },
+        {
+            "country": "yemen",
+            "iso": "ye"
+        },
+        {
+            "country": "indonesia",
+            "iso": "id"
+        },
+        {
+            "country": "hong kong",
+            "iso": "hk"
+        },
+        {
+            "country": "antarctica",
+            "iso": "aq"
+        },
+        {
+            "country": "syrian arab republic",
+            "iso": "sy"
+        },
+        {
+            "country": "bhutan",
+            "iso": "bt"
+        },
+        {
+            "country": "cambodia",
+            "iso": "kh"
+        },
+        {
+            "country": "saudi arabia",
+            "iso": "sa"
+        },
+        {
+            "country": "thailand",
+            "iso": "th"
+        },
+        {
+            "country": "bouvet island",
+            "iso": "bv"
+        },
+        {
+            "country": "iran, islamic republic of",
+            "iso": "ir"
+        },
+        {
+            "country": "turkey",
+            "iso": "tr"
+        },
+        {
+            "country": "french southern territories",
+            "iso": "tf"
+        },
+        {
+            "country": "iraq",
+            "iso": "iq"
+        },
+        {
+            "country": "korea",
+            "iso": "kr"
+        },
+        {
+            "country": "oman",
+            "iso": "om"
+        },
+        {
+            "country": "israel",
+            "iso": "il"
+        },
+        {
+            "country": "maldives",
+            "iso": "mv"
+        },
+        {
+            "country": "south georgia and sandwich isl.",
+            "iso": "gs"
+        },
+        {
+            "country": "kyrgyzstan",
+            "iso": "kg"
+        },
+        {
+            "country": "japan",
+            "iso": "jp"
+        },
+        {
+            "country": "turkmenistan",
+            "iso": "tm"
+        },
+        {
+            "country": "myanmar",
+            "iso": "mm"
+        },
+        {
+            "country": "qatar",
+            "iso": "qa"
+        },
+        {
+            "country": "macao",
+            "iso": "mo"
+        },
+        {
+            "country": "kuwait",
+            "iso": "kw"
+        },
+        {
+            "country": "uzbekistan",
+            "iso": "uz"
+        },
+        {
+            "country": "russian federation",
+            "iso": "ru"
+        },
+        {
+            "country": "timor-leste",
+            "iso": "tl"
+        }
+    ]
+}
