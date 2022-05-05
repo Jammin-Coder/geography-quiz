@@ -1,16 +1,8 @@
 import json
 import random
 import os
-from settings import MAPS_DIR, COUNTRIES_SCHEMA_URL
-
-def get_continents(path=MAPS_DIR):
-    continents = []
-    dir_contents = os.scandir(path)
-    for item in dir_contents:
-        if os.path.isdir(item):
-            continents.append(item.name)
-    return continents
-
+from database import db_connect
+from settings import CONTINENTS_TABLE_NAME
 
 def read(path):
     with open(path, 'r') as f:
@@ -21,22 +13,40 @@ def write(path, contents):
     with open(path, 'w') as f:
         f.write(contents)
 
+def get_iso_from_country_by_continent(target_country, continent_name):
+    db = db_connect()
+    cursor = db.cursor()
+    cursor.execute(
+        'SELECT * FROM continents WHERE continent_name = %(continent_name)s;',
+        {
+            'continent_name': continent_name
+        }
+    )
+    countries_row = cursor.fetchone()
+    db.close()
 
-def write_json(path, contents):
-    with open(path, 'w') as f:
-        json.dump(contents, f, indent=4)
+    countries_list = json.loads(countries_row[1])['countries']
+    for country_object in countries_list:
+        if country_object['country'] == target_country:
+            return country_object['iso']
+
+    return None
 
 
-def read_json(path):
-    return json.loads(read(path))
+def get_iso_from_country(target_country):
+    db = db_connect()
+    cursor = db.cursor()
+    cursor.execute('SELECT * FROM continents;')
+    continents = cursor.fetchall()
+    db.close()
 
-
-def get_iso_countries_dict():
-    pass
-
-
-def get_iso_name(name):
-    pass
+    for continent in continents:
+        countries = json.loads(continent[1])['countries']
+        for country in countries:
+            if country['country'] == target_country:
+                return country['iso']
+            
+    return None
 
 
 def get_country_name_by_iso(target_iso):

@@ -4,9 +4,9 @@ import base64
 import json
 import os
 
-from utils import read, read_json
+from utils import read
 from settings import (
-    CONTINENTS, GITHUB_REPO, GITHUB_USERNAME, COUNTRIES_SCHEMA_URL, JSON_DIR
+    CONTINENTS, GITHUB_REPO, GITHUB_USERNAME, JSON_DIR
 )
 
 import mysql.connector
@@ -83,12 +83,12 @@ def github_read_file(username, repository_name, file_path, github_token=None):
 def update_continent_row(continent_name, json_countries):
     cursor = db.cursor()
     cursor.execute("""
-        INSERT INTO continents (name, json_countries)
-        VALUES (%(name)s, %(json_countries)s)
+        INSERT INTO continents (continent_name, json_countries)
+        VALUES (%(continent_name)s, %(json_countries)s)
         ON DUPLICATE KEY UPDATE json_countries=%(json_countries)s;
     """,
     {
-        'name': continent_name,
+        'continent_name': continent_name,
         'json_countries': json_countries
     })
 
@@ -104,6 +104,7 @@ def update_db():
             json_file = os.path.join(JSON_DIR, f'{continent}.json')
             json_contents = read(json_file)
             update_continent_row(continent, json_contents)
+        
     except mysql.connector.Error as err:
         print(f'Something went wrong: {err}')
         db.close()
