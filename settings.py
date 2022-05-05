@@ -1,5 +1,6 @@
 COUNTRIES_SCHEMA_URL = 'static/json/countries_schema.json'
 MAPS_DIR = 'static/maps'
+CONTINENTS = ['north america', 'south america', 'africa', 'europe', 'asia', 'oceania']
 
 GITHUB_USERNAME = 'Jammin-Coder'
 GITHUB_REPO = 'geography-quiz'

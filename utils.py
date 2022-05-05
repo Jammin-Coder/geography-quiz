@@ -2,8 +2,6 @@ import json
 import random
 import os
 from settings import MAPS_DIR, COUNTRIES_SCHEMA_URL
-from github_read_file import github_read_file
-
 
 def get_continents(path=MAPS_DIR):
     continents = []
