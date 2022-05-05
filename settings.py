@@ -1,5 +1,6 @@
 COUNTRIES_SCHEMA_URL = 'static/json/countries_schema.json'
 MAPS_DIR = 'static/maps'
+JSON_DIR = 'static/json'
 CONTINENTS = ['north america', 'south america', 'africa', 'europe', 'asia', 'oceania']
 
 GITHUB_USERNAME = 'Jammin-Coder'
