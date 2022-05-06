@@ -1,6 +1,8 @@
+from itertools import count
 import json
+import random
 from database import db_connect
-from settings import CONTINENTS_TABLE_NAME
+from settings import CONTINENTS, CONTINENTS_TABLE_NAME
 
 def read(path):
     with open(path, 'r') as f:
@@ -90,8 +92,37 @@ def get_country_name_from_iso(target_iso):
             
     return None
 
-def get_random_territory_from_region(region):
-    pass
+
+def get_random_country():
+    db = db_connect()
+    cursor = db.cursor()
+    cursor.execute('SELECT * FROM continents;')
+    continents = cursor.fetchall()
+    db.close()
+
+    cont_index = random.randrange(0, len(CONTINENTS))
+    countries = json.loads(continents[cont_index][1])["countries"]
+    rand_country_index = random.randrange(0, len(countries))
+    country = countries[rand_country_index]
+    return country
+
+
+def get_random_country_from_continent(continent_name):
+    db = db_connect()
+    cursor = db.cursor()
+    cursor.execute(
+        'SELECT * FROM continents WHERE continent_name = %(continent_name)s;',
+        {
+            'continent_name': continent_name
+        }
+    )
+    countries_row = cursor.fetchone()
+    db.close()
+    
+    countries = json.loads(countries_row[1])['countries']
+    rand_index = random.randrange(0, len(countries))
+    country = countries[rand_index]
+    return country
 
 
 
