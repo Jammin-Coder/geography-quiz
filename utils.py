@@ -1,6 +1,4 @@
 import json
-import random
-import os
 from database import db_connect
 from settings import CONTINENTS_TABLE_NAME
 
@@ -14,6 +12,10 @@ def write(path, contents):
         f.write(contents)
 
 def get_iso_from_country_by_continent(target_country, continent_name):
+    """
+    Selects a continent from the database, loops over its countries looking for the provided
+    'target_country'. When it's found, it returns it's ISO value.
+    """
     db = db_connect()
     cursor = db.cursor()
     cursor.execute(
@@ -34,6 +36,11 @@ def get_iso_from_country_by_continent(target_country, continent_name):
 
 
 def get_iso_from_country(target_country):
+    """
+    Selects all of the continents, loops over their countries to look for
+    'target_country'. A country that matches 'target_country' is found,
+    return the matched country's ISO value.
+    """
     db = db_connect()
     cursor = db.cursor()
     cursor.execute('SELECT * FROM continents;')
@@ -49,9 +56,39 @@ def get_iso_from_country(target_country):
     return None
 
 
-def get_country_name_by_iso(target_iso):
-    pass
+def get_country_name_from_iso_by_continent(target_iso, continent_name):
+    db = db_connect()
+    cursor = db.cursor()
+    cursor.execute(
+        'SELECT * FROM continents WHERE continent_name = %(continent_name)s;',
+        {
+            'continent_name': continent_name
+        }
+    )
+    countries_row = cursor.fetchone()
+    db.close()
 
+    countries_list = json.loads(countries_row[1])['countries']
+    for country_object in countries_list:
+        if country_object['iso'] == target_iso:
+            return country_object['country']
+
+    return None
+
+def get_country_name_from_iso(target_iso):
+    db = db_connect()
+    cursor = db.cursor()
+    cursor.execute('SELECT * FROM continents;')
+    continents = cursor.fetchall()
+    db.close()
+
+    for continent in continents:
+        countries = json.loads(continent[1])['countries']
+        for country in countries:
+            if country['iso'] == target_iso:
+                return country['country']
+            
+    return None
 
 def get_random_territory_from_region(region):
     pass
