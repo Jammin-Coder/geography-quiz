@@ -8,9 +8,9 @@ GITHUB_REPO = 'geography-quiz'
 
 # Database
 DB_HOST = 'localhost'
-DB_USERNAME = 'tim'
-DB_PASSWORD = '$HapPYmiNT56'
-DB_NAME = 'geo_quiz'
+DB_USERNAME = 'USERNAME'
+DB_PASSWORD = 'PASSWORD'
+DB_NAME = 'DATABASE_NAME'
 
 CONTINENTS_TABLE_NAME = 'continents'
 CONTINENT_NAME_COLUMN = 'continent_name'
