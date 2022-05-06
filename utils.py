@@ -92,6 +92,22 @@ def get_country_name_from_iso(target_iso):
             
     return None
 
+def get_all_countries_from_continent(continent_name):
+    continent_name = continent_name.replace('%20', ' ')
+    db = db_connect()
+    cursor = db.cursor()
+    cursor.execute(
+        'SELECT * FROM continents WHERE continent_name=%(continent_name)s;',
+        { 'continent_name': continent_name }
+    )
+
+    continent = cursor.fetchone()
+    db.close()
+    if continent_name == 'favicon.ico':
+        print('favicon!!!')
+
+    countries = json.loads(continent[1])['countries']
+    return countries
 
 def get_random_country():
     db = db_connect()
@@ -123,6 +139,4 @@ def get_random_country_from_continent(continent_name):
     rand_index = random.randrange(0, len(countries))
     country = countries[rand_index]
     return country
-
-
 

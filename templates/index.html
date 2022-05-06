@@ -3,9 +3,18 @@
 {% block title %}Home{% endblock %}
 
 {% block content %}
+<div class='flex col fluid justify-center align-center'>
+    <h1 class='text=center mb=2'>Pick a Continent</h1>
+    <section class='region-selection'>
+        
+        {% for name, image_url in images.items() %}
+            <div class='select-region card' onclick='goToRegion("{{ name }}");'>
+                <p>{{ name }}</p>
+                <img src='{{ image_url }}' >
+            </div>
+        {% endfor %}
 
-{% for name, image_url in images.items() %}
-    <p>{{ name }}</p>
-    <img src='{{ image_url }}' >
-{% endfor %}
+    </section>
+</div>
+
 {% endblock %}

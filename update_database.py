@@ -1,4 +1,3 @@
-from dis import code_info
 import requests
 import base64
 import json
@@ -70,6 +69,7 @@ def github_read_file(username, repository_name, file_path, github_token=None):
         headers['Authorization'] = f"token {github_token}"
         
     url = f'https://api.github.com/repos/{username}/{repository_name}/contents/{file_path}'
+    print(f'Fetching contents from {url}')
     r = requests.get(url, headers=headers)
     r.raise_for_status()
     data = r.json()
@@ -102,7 +102,7 @@ def update_db():
     try:
         for continent in CONTINENTS:
             json_file = os.path.join(JSON_DIR, f'{continent}.json')
-            json_contents = read(json_file)
+            json_contents = github_read_file(GITHUB_USERNAME, GITHUB_REPO, json_file)
             update_continent_row(continent, json_contents)
         
     except mysql.connector.Error as err:

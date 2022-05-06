@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url(flex.css);
+@import url(utils.css);
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    
+    margin: 0;
+    /* font-size: clamp(0.5rem, 2vw, 1.25rem); */
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+.app-container {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.nav {
+    list-style: none;
+    padding: 0 1em;
+    display: flex;
+    gap: 2em;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 1.5em 1em rgba(0, 0, 0, 0.1);
+    border-radius: 0.3em;
+    padding: 0.5em;
+}
+
+
+.btn {
+    padding: 0.5em 1em;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.2em;
+    transition: all 0.3s;
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn:hover {
+    transform: translateY(-0.1em);
+    box-shadow: 0px 0px 1em 0.1em rgba(0, 0, 0, 0.1);
+    
+}
+
+@keyframes FadeOut {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+@keyframes FadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.fade-out {
+    animation: FadeOut 0.5s;
+}
+
+.fade-in {
+    animation: FadeIn 0.5s;
+}
+
+
+
